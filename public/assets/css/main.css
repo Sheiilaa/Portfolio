@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.code {
+  font-size: 16px;
+  background: #d8d8d8;
+  padding: 0 5px;
+  border-radius: 5px; }
+
+.main_title {
+  font-family: "Varela Round", sans-serif;
+  color: #7a251a; }
+
+.main_section {
+  font-family: "Varela Round", sans-serif;
+  color: #462d23; }
+
+.page {
+  background-color: #cacbcd;
+  margin: 10px 10px 10px 10px;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover; }
+
+.header {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.img_perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; }
+
+.title {
+  font-family: "Pacifico", cursive;
+  color: #27283d; }
+
+.page {
+  background-color: #cacbcd;
+  margin: 10px 10px 10px 10px;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover; }
+
+.mainbox {
+  position: relative;
+  width: 520px;
+  height: 520px; }
+
+.box {
+  width: 98%;
+  height: 98%;
+  position: relative;
+  border-radius: 50%;
+  border: 14px solid #881e1e;
+  overflow: hidden; }
+
+span {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: absolute; }
+
+.span1 {
+  -webkit-clip-path: polygon(0 100%, 100% 54%, 0 5%);
+  clip-path: polygon(0 100%, 100% 54%, 0 5%);
+  background-color: blueviolet;
+  top: 120px;
+  left: 0; }
+
+.span2 {
+  -webkit-clip-path: polygon(120% 110%, 0 52%, 93% 5%);
+  clip-path: polygon(120% 110%, 0 52%, 93% 5%);
+  background-color: red;
+  top: 120px;
+  right: 0; }
+
+.span3 {
+  -webkit-clip-path: polygon(50% -5%, 5% 100%, 98% 100%);
+  clip-path: polygon(50% -5%, 5% 100%, 98% 100%);
+  background-color: green;
+  bottom: 0;
+  left: 120px; }
+
+.span4 {
+  -webkit-clip-path: polygon(55% 100%, 100% 0, 5% 0);
+  clip-path: polygon(55% 100%, 100% 0, 5% 0);
+  background-color: yellow;
+  top: 0;
+  left: 120px; }
+
+.box2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-135deg); }
+
+.text {
+  font-size: 13px;
+  text-align: center;
+  -webkit-text-orientation: upright;
+  text-orientation: upright;
+  border: 2px solid black;
+  width: 75px;
+  color: black;
+  margin-left: 15px; }
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 4px solid orange;
+  background-color: orangered;
+  color: #810202;
+  box-shadow: 0 5px 20px black;
+  cursor: pointer;
+  font-size: 22px; }
+  .button:active {
+    width: 70px;
+    height: 70px;
+    font-size: 18px; }
+
+/*# sourceMappingURL=main.css.map */

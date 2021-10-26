@@ -1,0 +1,28 @@
+.page {
+  background-color: $background-page;
+  margin: 10px 10px 10px 10px;
+  font-family: $letter_fonts;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.header {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.img_perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.title {
+  font-family: $title_fonts;
+  color: $title;
+}
