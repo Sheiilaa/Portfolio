@@ -3,6 +3,7 @@
   margin: 10px 10px 10px 10px;
   font-family: $letter_fonts;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -13,7 +14,7 @@
 .header {
   padding-top: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -24,5 +25,6 @@
 }
 .title {
   font-family: $title_fonts;
-  color: $title;
+  color: $maroon;
+  font-size: 40px;
 }

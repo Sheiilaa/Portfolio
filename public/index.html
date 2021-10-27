@@ -14,49 +14,93 @@
       href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
       rel="stylesheet"
     />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="page">
-      <div class="mainbox">
-        <div class="box">
-          <div class="box1">
-            <span class="span1"
-              ><a href="./about-me.html"><p class="text">Sobre mi</p></a></span
-            >
+      <header class="header">
+        <h1 class="title">Bienvenidos a mi portfolio</h1>
+      </header>
 
-            <span class="span2"
-              ><a href="./about-me.html"><p class="text">Proyectos</p></a></span
-            >
+      <main>
+        <section class="main_description js_collapsable_content">
+          <p class="description_p">
+            ¡Os propongo un juego! Para poder ver toda la información sobre mi, vamos a
+            jugar a la ruleta de la suerte, para ello tendréis que pinchar en el gajo
+            que os haya tocado.
+          </p>
+          <button class="description_button js_collapsable_button">¡A JUGAR!</button>
+        </section>
 
-            <span class="span3"
-              ><a href="./about-me.html"><p class="text">Contacto</p></a></span
-            >
-            <span class="span4"
-              ><a href="./about-me.html"
-                ><p class="text">Tecnologías</p></a
-              ></span
-            >
+        <section class="js_collapsable_content">
+          <div class="mainbox">
+            <img src="./assets/images/ico-arrow.svg" alt="Arrow" class="arrow" />
+            <div id="box" class="box">
+              <div class="box1">
+                <span class="span1"
+                  ><a href="./about-me.html"><p class="text">Sobre mi</p></a></span
+                >
+
+                <span class="span2"
+                  ><a href="./about-me.html"><p class="text">Proyectos</p></a></span
+                >
+
+                <span class="span3"
+                  ><a href="./about-me.html"><p class="text">Contacto</p></a></span
+                >
+                <span class="span4"
+                  ><a href="./about-me.html"><p class="text">Tecnologías</p></a></span
+                >
+              </div>
+              <div class="box2">
+                <span class="span1"
+                  ><a href="./about-me.html"><p class="text">About me</p></a></span
+                >
+                <span class="span2"
+                  ><a href="./about-me.html"><p class="text">Projects</p></a></span
+                >
+                <span class="span3"
+                  ><a href="./about-me.html"><p class="text">Contact</p></a></span
+                >
+                <span class="span4"
+                  ><a href="./about-me.html"
+                    ><p class="text">Technical Skills</p></a
+                  ></span
+                >
+              </div>
+            </div>
+            <button class="button js_button">Girar</button>
           </div>
-          <div class="box2">
-            <span class="span1"
-              ><a href="./about-me.html"><p class="text">About me</p></a></span
-            >
-            <span class="span2"
-              ><a href="./about-me.html"><p class="text">Projects</p></a></span
-            >
-            <span class="span3"
-              ><a href="./about-me.html"><p class="text">Contact</p></a></span
-            >
-            <span class="span4"
-              ><a href="./about-me.html"
-                ><p class="text">Technical Skills</p></a
-              ></span
-            >
-          </div>
-        </div>
-        <button class="button js_button">Girar</button>
-      </div>
+          <section class="container">
+            <h2 class="container_title">¿Cansado de jugar?</h2>
+            <p class="container_p">
+              No te preocupes aqui debajo te dejamos un menú para que puedas visitar la
+              información que quieras
+            </p>
+            <button class="container_button js_collapsable_button">Ir al menu</button>
+          </section>
+        </section>
+
+        <nav class="js_collapsable_content">
+          <ul class="nav_ul">
+            <li><a href="../about-me.html">Sobre mi</a></li>
+            <li><a href="../about-me.html">Proyectos</a></li>
+            <li><a href="../about-me.html">Tecnologías</a></li>
+            <li><a href="../about-me.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+      </main>
     </div>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

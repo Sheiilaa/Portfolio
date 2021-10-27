@@ -32,10 +32,11 @@ a {
   color: #462d23; }
 
 .page {
-  background-color: #cacbcd;
+  background-color: #bddacec0;
   margin: 10px 10px 10px 10px;
   font-family: "Varela Round", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -45,7 +46,7 @@ a {
 .header {
   padding-top: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center; }
 
@@ -56,11 +57,14 @@ a {
 
 .title {
   font-family: "Pacifico", cursive;
-  color: #27283d; }
+  color: #570712;
+  font-size: 40px; }
+
+body {
+  background-color: #bddacec0; }
 
 .page {
-  background-color: #cacbcd;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 20px 20px 15px;
   font-family: "Varela Round", sans-serif;
   display: flex;
   justify-content: center;
@@ -69,18 +73,59 @@ a {
   overflow: hidden;
   background-size: cover; }
 
+.main_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.description_p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-align: center; }
+
+.description_button {
+  width: 115px;
+  height: 35px;
+  border-radius: 45%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  border: 4px solid orange;
+  background-color: orangered;
+  color: #810202; }
+
 .mainbox {
+  margin-left: 100px;
+  margin-bottom: 40px;
   position: relative;
   width: 520px;
   height: 520px; }
+
+.arrow {
+  position: relative;
+  top: 8%;
+  left: 80%;
+  webkit-transform: rotate(-70deg);
+  transform: rotate(190deg);
+  height: 40px; }
+  @media all and (min-width: 900px) {
+    .arrow {
+      left: 60%; } }
+  @media all and (min-width: 1200px) {
+    .arrow {
+      left: 45%; } }
 
 .box {
   width: 98%;
   height: 98%;
   position: relative;
   border-radius: 50%;
-  border: 14px solid #881e1e;
-  overflow: hidden; }
+  border: 5px solid;
+  overflow: hidden;
+  transition: all ease 3s; }
 
 span {
   width: 50%;
@@ -94,28 +139,28 @@ span {
 .span1 {
   -webkit-clip-path: polygon(0 100%, 100% 54%, 0 5%);
   clip-path: polygon(0 100%, 100% 54%, 0 5%);
-  background-color: blueviolet;
+  background-color: #7628b6;
   top: 120px;
   left: 0; }
 
 .span2 {
   -webkit-clip-path: polygon(120% 110%, 0 52%, 93% 5%);
   clip-path: polygon(120% 110%, 0 52%, 93% 5%);
-  background-color: red;
+  background-color: #cc1f1f;
   top: 120px;
   right: 0; }
 
 .span3 {
   -webkit-clip-path: polygon(50% -5%, 5% 100%, 98% 100%);
   clip-path: polygon(50% -5%, 5% 100%, 98% 100%);
-  background-color: green;
+  background-color: #138113;
   bottom: 0;
   left: 120px; }
 
 .span4 {
   -webkit-clip-path: polygon(55% 100%, 100% 0, 5% 0);
   clip-path: polygon(55% 100%, 100% 0, 5% 0);
-  background-color: yellow;
+  background-color: #e7e718;
   top: 0;
   left: 120px; }
 
@@ -130,13 +175,14 @@ span {
   -webkit-text-orientation: upright;
   text-orientation: upright;
   border: 2px solid black;
+  font-weight: 800;
   width: 75px;
   color: black;
   margin-left: 15px; }
 
 .button {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75px;
@@ -152,5 +198,48 @@ span {
     width: 70px;
     height: 70px;
     font-size: 18px; }
+
+.container {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.container_title {
+  color: #570712;
+  font-size: 30px; }
+
+.container_p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-align: center; }
+
+.container_button {
+  width: 115px;
+  height: 35px;
+  border-radius: 45%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  border: 4px solid orange;
+  background-color: orangered;
+  color: #810202; }
+
+.nav_ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #7a251a; }
+
+.hidden {
+  height: 0;
+  margin-bottom: 0px;
+  overflow: hidden; }
 
 /*# sourceMappingURL=main.css.map */

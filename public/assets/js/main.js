@@ -35,3 +35,5 @@ function handleButton(ev) {
 }
 
 button.addEventListener("click", handleButton);
+
+//# sourceMappingURL=main.js.map

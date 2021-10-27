@@ -1,6 +1,8 @@
-.page {
+body {
   background-color: $background-page;
-  margin: 10px 10px 10px 10px;
+}
+.page {
+  margin: 10px 20px 20px 15px;
   font-family: $letter_fonts;
   display: flex;
   justify-content: center;
@@ -9,19 +11,64 @@
   overflow: hidden;
   background-size: cover;
 }
+//Description.
+.main_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.description_p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.description_button {
+  width: 115px;
+  height: 35px;
+  border-radius: 45%;
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 16px;
+  border: 4px solid orange;
+  background-color: orangered;
+  color: rgb(129, 2, 2);
+}
+//Para la ruleta
 .mainbox {
+  margin-left: 100px;
+  margin-bottom: 40px;
   position: relative;
   width: 520px;
   height: 520px;
+}
+.arrow {
+  position: relative;
+  top: 8%;
+  left: 80%;
+  webkit-transform: rotate(-70deg);
+  -moz-transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  transform: rotate(190deg);
+  height: 40px;
+  @media all and (min-width: 900px) {
+    left: 60%;
+  }
+  @media all and (min-width: 1200px) {
+    left: 45%;
+  }
 }
 .box {
   width: 98%;
   height: 98%;
   position: relative;
   border-radius: 50%;
-  border: 14px solid rgb(136, 30, 30);
-
+  border: 5px solid;
   overflow: hidden;
+  transition: all ease 3s;
 }
 span {
   width: 50%;
@@ -34,25 +81,25 @@ span {
 }
 .span1 {
   clip-path: polygon(0 100%, 100% 54%, 0 5%);
-  background-color: blueviolet;
+  background-color: rgb(118, 40, 182);
   top: 120px;
   left: 0;
 }
 .span2 {
   clip-path: polygon(120% 110%, 0 52%, 93% 5%);
-  background-color: red;
+  background-color: rgb(204, 31, 31);
   top: 120px;
   right: 0;
 }
 .span3 {
   clip-path: polygon(50% -5%, 5% 100%, 98% 100%);
-  background-color: green;
+  background-color: rgb(19, 129, 19);
   bottom: 0;
   left: 120px;
 }
 .span4 {
   clip-path: polygon(55% 100%, 100% 0, 5% 0);
-  background-color: yellow;
+  background-color: rgb(231, 231, 24);
   top: 0;
   left: 120px;
 }
@@ -66,26 +113,15 @@ span {
   text-align: center;
   text-orientation: upright;
   border: 2px solid black;
+  font-weight: 800;
   width: 75px;
   color: black;
   margin-left: 15px;
 }
-// p {
-//   width: 65px;
-//   height: 65px;
-//   line-height: 65px;
-//   font-size: 20px;
-//   text-align: center;
-//   background-color: brown;
-//   color: black;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   box-shadow: inset 0 3 px 3px 0 black;
-// }
+
 .button {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75px;
@@ -102,4 +138,55 @@ span {
     height: 70px;
     font-size: 18px;
   }
+}
+
+//Para el contenedor
+.container {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container_title {
+  color: $maroon;
+  font-size: 30px;
+}
+
+.container_p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.container_button {
+  width: 115px;
+  height: 35px;
+  border-radius: 45%;
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 16px;
+  border: 4px solid orange;
+  background-color: orangered;
+  color: rgb(129, 2, 2);
+}
+
+//Menú
+.nav_ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 10px;
+  font-size: 18px;
+  color: $dark-red;
+}
+
+// para los colapsables
+.hidden {
+  height: 0;
+  margin-bottom: 0px;
+  overflow: hidden;
 }
