@@ -1,14 +1,33 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header_me {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.img_perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+}
+.title_me {
+  font-family: $title_fonts;
+  color: $maroon;
+  font-size: 40px;
+}
+.main_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main_title_me {
+  font-family: $letter_fonts;
+  color: $dark-red;
+}
+.main_section_me {
+  font-family: $letter_fonts;
+  color: $dark-brown;
+}

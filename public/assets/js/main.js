@@ -1,26 +1,20 @@
 "use strict";
 //collapsables
-const collapsableContent = document.querySelectorAll(".js_collapsable_content");
-const collapsableButton = document.querySelectorAll(".js_collapsable_button");
+const collapsableRulete = document.querySelector(".js_collapsable_rulete");
+const collapsableNav = document.querySelector(".js_collapsable_nav");
+const collapsableButton1 = document.querySelector(".js_button1");
+const collapsableButton2 = document.querySelector(".js_collapsable_button2");
 
-function handleCollapsable(ev) {
-  const buttonEl = ev.currentTarget;
-  console.log(buttonEl);
-  buttonEl.classList.add("clicado");
-  for (let i = 0; i < collapsableContent.length; i++) {
-    let collapsable = collapsableContent[i];
-
-    if (collapsableButton[i].classList.contains("clicado") === true) {
-      collapsable.classList.toggle("hidden");
-      collapsableButton[i].classList.remove("clicado");
-    } else {
-      collapsableButton[i].classList.remove("clicado");
-      collapsable.classList.add("hidden");
-    }
-  }
+console.log(collapsableButton2);
+collapsableButton1.addEventListener("click", handleRulete);
+collapsableButton2.addEventListener("click", handleNav);
+function handleRulete(ev) {
+  ev.preventDefault;
+  collapsableRulete.classList.toggle("hidden");
 }
-for (let buttonEl of collapsableButton) {
-  buttonEl.addEventListener("click", handleCollapsable);
+function handleNav(ev) {
+  ev.preventDefault;
+  collapsableNav.classList.toggle("hidden");
 }
 
 //ruleta
