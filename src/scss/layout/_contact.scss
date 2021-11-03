@@ -1,0 +1,59 @@
+.main_contact {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.contact_p {
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.title_article {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.caja {
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid #dddcdc;
+  opacity: 0.8;
+  &:focus {
+    background: #fff8f1;
+  }
+}
+.mesagge {
+  display: flex;
+  flex-direction: column;
+}
+.input_mesagge {
+  margin: 5px 10px;
+  width: 300px;
+  height: 10vh;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #dddcdc;
+  opacity: 0.8;
+  &:focus {
+    background: #fff8f1;
+  }
+}
+.article_contact {
+  font-size: 23px;
+  text-align: center;
+}
+.RRSS {
+  font-size: 50px;
+  padding-left: 80px;
+  padding-top: 20px;
+}

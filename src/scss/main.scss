@@ -2,8 +2,10 @@
 @import "core/reset";
 @import "components/code";
 @import "components/links";
-@import "layout/projects";
 @import "layout/header";
 @import "layout/footer";
-@import "layout/about-me.scss";
 @import "pages/index";
+@import "layout/about-me.scss";
+@import "layout/projects";
+@import "layout/contact";
+@import "layout/skills";

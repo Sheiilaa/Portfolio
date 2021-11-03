@@ -1,0 +1,28 @@
+.main_article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.main_article-skills {
+  background-color: rgba(192, 190, 190, 0.103);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 36px;
+  width: 80px;
+  height: 60px;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  @media (min-width: 768px) {
+    padding: 10px;
+    font-size: 36px;
+    width: 100px;
+    height: 80px;
+  }
+}

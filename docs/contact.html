@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon.
+    png"
+    />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/adcd08db79.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header>
+        <h1 class="title">Contacto</h1>
+        <a href="./index.html">
+          <button class="button_project">Volver a la ruleta</button>
+        </a>
+      </header>
+      <main class="main_contact">
+        <article>
+          <p class="contact_p">
+            Después de haberme conocido un poquito mas, os dejo este apartado
+            para poder ponerse en contacto conmigo.
+          </p>
+        </article>
+        <article>
+          <h2 class="title_article">¡Hablemos!</h2>
+          <form class="form" action="" method="POST">
+            <div class="name-email">
+              <label for="name">Nombre completo </label>
+              <input
+                id="name"
+                type="text"
+                placeholder="Nombre..."
+                class="caja"
+                required
+              />
+            </div>
+            <div class="name-email">
+              <label for="email">Email</label>
+              <input
+                class="caja"
+                type="email"
+                id="emailAddress"
+                name="emailAddress"
+                placeholder="ejemplo@gmail.com"
+                required
+              />
+            </div>
+            <div class="mesagge">
+              <label for="message">Mensaje:</label>
+              <textarea
+                class="input_mesagge"
+                name="message"
+                placeholder="Tu mensaje..."
+                required
+              ></textarea>
+            </div>
+            <input
+              class="main__section--form__inputButton"
+              type="submit"
+              value="Enviar"
+            />
+          </form>
+        </article>
+        <article class="article_contact">
+          <h2>También puedes contactar conmigo por:</h2>
+          <div>
+            <i class="fab fa-github RRSS"></i>
+            <i class="fab fa-linkedin RRSS"></i>
+            <i class="fab fa-twitter RRSS"></i>
+            <i class="far fa-envelope RRSS"></i>
+          </div>
+        </article>
+      </main>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
