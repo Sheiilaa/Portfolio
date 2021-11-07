@@ -5,10 +5,32 @@
   justify-content: space-around;
   align-items: center;
 }
+.button-return {
+  width: 120px;
+  height: 40px;
+  border-radius: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  border: 5px solid $border-button;
+  background-color: $background-button;
+  color: $letter-button;
+  margin-bottom: 25px;
+  @media all and (min-width: 900px) {
+    width: 160px;
+    height: 60px;
+    font-size: 26px;
+  }
+}
 .img_perfil {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-radius: 30%;
+  @media all and (min-width: 1000px) {
+    width: 450px;
+    height: 450px;
+    margin-right: 10px;
+  }
 }
 
 .main_me {
@@ -16,14 +38,29 @@
   flex-direction: column;
   align-items: center;
   padding-top: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  @media all and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 .main_title_me {
   font-family: $letter_fonts;
-  color: $dark-red;
+  color: $color-sub-title;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 30px;
+  @media all and (min-width: 1000px) {
+    font-size: 40px;
+  }
 }
 .main_section_me {
   font-family: $letter_fonts;
-  color: $dark-brown;
+  font-size: 20px;
+  padding-left: 30px;
+  text-align: center;
+  @media all and (min-width: 1000px) {
+    font-size: 26px;
+  }
 }

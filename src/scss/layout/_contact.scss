@@ -1,6 +1,6 @@
 .main_contact {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .contact_p {
   font-size: 24px;
@@ -8,11 +8,18 @@
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
+  @media all and (min-width: 1000px) {
+    font-size: 30px;
+  }
 }
 .title_article {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-size: 30px;
+  color: $color-sub-title;
+  @media all and (min-width: 1000px) {
+    font-size: 38px;
+  }
 }
 .form {
   display: flex;
@@ -21,8 +28,13 @@
   align-content: center;
   align-items: center;
   font-size: 20px;
+  @media all and (min-width: 1000px) {
+    font-size: 26px;
+  }
 }
-.caja {
+.caja1 {
+  width: 300px;
+
   margin: 10px;
   padding: 5px 10px;
   border-radius: 7px;
@@ -31,15 +43,33 @@
   &:focus {
     background: #fff8f1;
   }
+  @media all and (min-width: 1000px) {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+  }
 }
-.mesagge {
-  display: flex;
-  flex-direction: column;
+.caja2 {
+  width: 420px;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid #dddcdc;
+  opacity: 0.8;
+  &:focus {
+    background: #fff8f1;
+  }
+  @media all and (min-width: 1000px) {
+    width: 670px;
+    height: 40px;
+    font-size: 20px;
+  }
 }
+
 .input_mesagge {
   margin: 5px 10px;
-  width: 300px;
-  height: 10vh;
+  width: 500px;
+  height: 8vh;
   padding: 10px;
   border-radius: 7px;
   border: 1px solid #dddcdc;
@@ -47,13 +77,43 @@
   &:focus {
     background: #fff8f1;
   }
+  @media all and (min-width: 1000px) {
+    font-size: 20px;
+    width: 750px;
+    height: 12vh;
+  }
+}
+
+.button-submit {
+  width: 120px;
+  height: 40px;
+  border-radius: 20%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  border: 5px solid $border-button;
+  background-color: $background-button;
+  color: $letter-button;
+  margin-bottom: 25px;
+  @media all and (min-width: 900px) {
+    width: 160px;
+    height: 60px;
+    font-size: 26px;
+  }
 }
 .article_contact {
-  font-size: 23px;
+  font-size: 18px;
   text-align: center;
+  @media all and (min-width: 900px) {
+    font-size: 26px;
+  }
 }
 .RRSS {
   font-size: 50px;
   padding-left: 80px;
   padding-top: 20px;
+  color: $color-sub-title;
+  @media all and (min-width: 900px) {
+    font-size: 60px;
+  }
 }

@@ -1,27 +1,28 @@
+body {
+  background-color: $background-page;
+}
 .page {
   background-color: $background-page;
-  margin: 10px 10px 10px 10px;
   font-family: $letter_fonts;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow: hidden;
-  background-size: cover;
+  width: 100vw;
 }
-
-.header {
-  padding-top: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .title {
   font-family: $title_fonts;
-  color: $maroon;
-  font-size: 40px;
+  color: $color-title;
+  font-size: 50px;
   text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  @media all and (min-width: 900px) {
+    font-size: 60px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 70px;
+  }
 }

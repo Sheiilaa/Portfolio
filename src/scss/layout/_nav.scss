@@ -1,0 +1,36 @@
+//Menú
+.nav_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  list-style: none;
+  text-decoration: none;
+  padding-top: 25px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.nav_ul-li {
+  height: 30px;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  background-color: $border-button;
+  border: 6px solid $letter-button;
+
+  @media all and (min-width: 900px) {
+    width: 140px;
+    height: 55px;
+    padding-top: 15px;
+    padding-right: 25px;
+    font-size: 26px;
+  }
+}
+
+// para los colapsables
+.hidden {
+  height: 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
