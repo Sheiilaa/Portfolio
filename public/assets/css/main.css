@@ -380,10 +380,10 @@ span {
   align-items: center; }
   @media all and (min-width: 1100px) {
     .header_projects {
-      margin-top: 70vw; } }
+      margin-top: 80vw; } }
   @media all and (min-width: 1500px) {
     .header_projects {
-      margin-top: 60vw; } }
+      margin-top: 70vw; } }
   @media all and (min-width: 1900px) {
     .header_projects {
       margin-top: 10vw; } }
