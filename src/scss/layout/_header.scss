@@ -21,8 +21,11 @@ body {
   padding-bottom: 25px;
   @media all and (min-width: 900px) {
     font-size: 60px;
+    padding-bottom: 20px;
+    margin-top: 10px;
   }
   @media all and (min-width: 1200px) {
     font-size: 70px;
+    margin-top: 15px;
   }
 }
