@@ -68,7 +68,7 @@ body {
       font-size: 30px; } }
 
 .description_button {
-  width: 15vw;
+  width: 18vw;
   height: 5vh;
   border-radius: 20%;
   text-align: center;
@@ -94,20 +94,20 @@ body {
       font-size: 30px; } }
 
 .mainbox {
-  margin-left: 17%;
+  margin-left: 10%;
   margin-bottom: 40px;
   position: relative;
   width: 520px;
   height: 520px; }
-  @media all and (min-width: 900px) {
+  @media all and (min-width: 800px) {
     .mainbox {
-      margin-left: 25%; } }
+      margin-left: 20%; } }
   @media all and (min-width: 1200px) {
     .mainbox {
       margin-left: 28%; } }
   @media all and (min-width: 1600px) {
     .mainbox {
-      margin-left: 35%; } }
+      margin-left: 38%; } }
 
 .arrow {
   position: relative;
@@ -121,7 +121,7 @@ body {
       left: 80%; } }
   @media all and (min-width: 1200px) {
     .arrow {
-      left: 80%; } }
+      left: 85%; } }
 
 .box {
   width: 85%;
@@ -150,8 +150,8 @@ span {
       height: 50%; } }
 
 .span1 {
-  -webkit-clip-path: polygon(0 100%, 100% 54%, 0 5%);
-  clip-path: polygon(0 100%, 100% 54%, 0 5%);
+  -webkit-clip-path: polygon(0 90%, 118% 50%, 0 5%);
+  clip-path: polygon(0 90%, 118% 50%, 0 5%);
   background-color: #85c4cb;
   top: 120px;
   left: 0; }
@@ -161,8 +161,8 @@ span {
       clip-path: polygon(0 100%, 100% 54%, 0 5%); } }
 
 .span2 {
-  -webkit-clip-path: polygon(120% 110%, 0 52%, 93% 5%);
-  clip-path: polygon(120% 110%, 0 52%, 93% 5%);
+  -webkit-clip-path: polygon(110% 110%, 0% 50%, 93% 5%);
+  clip-path: polygon(110% 110%, 0% 50%, 93% 5%);
   background-color: #ffb923;
   top: 120px;
   right: 0; }
@@ -172,8 +172,8 @@ span {
       clip-path: polygon(120% 110%, 0 52%, 93% 5%); } }
 
 .span3 {
-  -webkit-clip-path: polygon(50% -5%, 5% 100%, 98% 100%);
-  clip-path: polygon(50% -5%, 5% 100%, 98% 100%);
+  -webkit-clip-path: polygon(47% -5%, -5% 100%, 90% 100%);
+  clip-path: polygon(47% -5%, -5% 100%, 90% 100%);
   background-color: #e74632;
   bottom: 0;
   left: 120px; }
@@ -183,8 +183,8 @@ span {
       clip-path: polygon(50% -5%, 5% 100%, 98% 100%); } }
 
 .span4 {
-  -webkit-clip-path: polygon(55% 100%, 100% 0, 5% 0);
-  clip-path: polygon(55% 100%, 100% 0, 5% 0);
+  -webkit-clip-path: polygon(48% 110%, 90% 0, 10% 0);
+  clip-path: polygon(48% 110%, 90% 0, 10% 0);
   background-color: #f88c99;
   top: 0;
   left: 120px; }
@@ -199,7 +199,7 @@ span {
   transform: rotate(-135deg); }
 
 .text {
-  font-size: 13px;
+  font-size: 9px;
   text-align: center;
   -webkit-text-orientation: upright;
   text-orientation: upright;
@@ -207,12 +207,34 @@ span {
   font-weight: 800;
   width: 75px;
   color: black;
-  margin-left: 15px; }
+  margin-left: 0px;
+  text-transform: none; }
+  @media all and (min-width: 800px) {
+    .text {
+      font-size: 13px;
+      margin-left: 15px; } }
+
+.text2 {
+  font-size: 9px;
+  text-align: center;
+  -webkit-text-orientation: upright;
+  text-orientation: upright;
+  border: 2px solid black;
+  font-weight: 800;
+  width: 75px;
+  color: black;
+  margin-left: 0px;
+  text-transform: none;
+  transform: rotate(-180deg); }
+  @media all and (min-width: 800px) {
+    .text2 {
+      font-size: 13px;
+      margin-left: 15px; } }
 
 .button {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 52%;
+  left: 45%;
   transform: translate(-50%, -50%);
   width: 75px;
   height: 75px;
@@ -230,6 +252,10 @@ span {
     width: 70px;
     height: 70px;
     font-size: 18px; }
+  @media all and (min-width: 800px) {
+    .button {
+      top: 60%;
+      left: 50%; } }
 
 .container {
   padding-top: 25px;
