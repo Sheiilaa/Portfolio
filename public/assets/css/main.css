@@ -77,6 +77,11 @@ body {
   border: 5px solid #fed9b7;
   background-color: #faf8b5;
   color: #f07167; }
+  @media all and (min-width: 600px) {
+    .description_button {
+      width: 22vw;
+      height: 5vh;
+      font-size: 24px; } }
   @media all and (min-width: 900px) {
     .description_button {
       width: 18vw;

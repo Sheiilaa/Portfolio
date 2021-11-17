@@ -28,6 +28,11 @@
   border: 5px solid $border-button;
   background-color: $background-button;
   color: $letter-button;
+  @media all and (min-width: 600px) {
+    width: 22vw;
+    height: 5vh;
+    font-size: 24px;
+  }
   @media all and (min-width: 900px) {
     width: 18vw;
     height: 5vh;
