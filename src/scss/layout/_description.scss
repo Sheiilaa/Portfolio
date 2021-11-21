@@ -3,8 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  align-content: center;
   padding-top: 15px;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-right: 10%;
 }
 .description_p {
@@ -18,10 +20,10 @@
     font-size: 30px;
   }
 }
-//socorro
+
 .description_button {
-  width: 18vw;
-  height: 5vh;
+  width: 30%;
+  height: 10%;
   border-radius: 20%;
   text-align: center;
   font-weight: 900;
